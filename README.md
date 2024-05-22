@@ -14,3 +14,9 @@ When creating or updating a page, please remember to:
 - Update the RSS feed (feed.txt) with a link and short blurb of the page.
 
 I (felikatze) reserve the right to veto any changes, because this site is my baby. Thank you!
+
+# this branch
+
+hey i (gold) am literally just doing this for my own sake and curiosity lol
+
+i don't speak japanese but i know a tiiny bit, for clarification ^^
