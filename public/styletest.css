@@ -1,8 +1,8 @@
 /* all the annotations n gunk are copied from sadgrl lol. except this one duh */
 
 @font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url(/VCR_OSD_MONO.ttf);
+  font-family: 'BestTen-CRT';
+  src: url(/BestTen-CRT.ttf);
 }
 
 @font-face {
@@ -21,7 +21,7 @@
 }
 
 .vcr {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT';
 }
 
 main {
@@ -97,7 +97,7 @@ body {
 
 
 .dialogue {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT';
     font-size: 22px;
 	border: 13px solid transparent;
     border-image: url("/border.png") 14 round;
@@ -189,7 +189,7 @@ body {
 
     width: 100%;
     background-color: #434343;
-    font-family: 'VCR_OSD_MONO' !important;
+    font-family: 'BestTen-CRT' !important;
 
     /*
      * Personal note:
@@ -290,7 +290,7 @@ h2,
 h3, 
 h4 {
     color: white;
-    font-family: 'VCR_OSD_MONO' ;
+    font-family: 'BestTen-CRT' ;
     
 }
 

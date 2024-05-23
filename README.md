@@ -20,3 +20,9 @@ I (felikatze) reserve the right to veto any changes, because this site is my bab
 hey i (gold) am literally just doing this for my own sake and curiosity lol
 
 i don't speak japanese but i know a tiiny bit, for clarification ^^
+
+## formatting notes
+
+- i'm doing furigana
+- comment the original english underneath, and also the version without the ruby code as it's hard to read in the code otherwise
+- 〝〟 marks shaky text

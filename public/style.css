@@ -29,8 +29,8 @@
 /** fonts ******************************************************************* */
 
 @font-face {
-  font-family: 'VCR_OSD_MONO';
-  src: url(/VCR_OSD_MONO.ttf);
+  font-family: 'BestTen-CRT';
+  src: url(/BestTen-CRT.ttf);
 }
 
 @font-face {
@@ -68,7 +68,7 @@ main {
 }
 
 .vcr {
-    font-family: 'VCR_OSD_MONO';
+    font-family: 'BestTen-CRT';
 }
 
 ul, 
@@ -140,7 +140,7 @@ button {
     width: 100%;
     background-color: var(--gray);
     background-repeat: no-repeat;
-    font-family: 'VCR_OSD_MONO' !important;
+    font-family: 'BestTen-CRT' !important;
 
     /*
      * Personal note:
@@ -234,7 +234,7 @@ h2,
 h3, 
 h4 {
     color: var(--white);
-    font-family: 'VCR_OSD_MONO' ;
+    font-family: 'BestTen-CRT' ;
     
 }
 
