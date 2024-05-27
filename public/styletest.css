@@ -385,3 +385,262 @@ strong {
         flex-wrap: wrap;
     }
 }
+
+
+
+
+/*
+ *
+ *
+ * code for animations!!!
+ * hi i (gold) did this code and im proud of it
+ * even though it might be a bit messy lol
+ *
+ *
+ */
+
+ @keyframes shake1 {
+    0%   { transform: translate(1.1132962126146975px, -0.37092798617134737px)}
+    10%  { transform: translate(1.0360243318430271px, 0.636271111799627px)}
+    20%  { transform: translate(0.4964742879263814px, 0.6977010633787285px)}
+    30%  { transform: translate(0.23271733923577942px, 0.9170787339655192px)}
+    40%  { transform: translate(0.8835340824813348px, -0.18816430199797451px)}
+    50%  { transform: translate(1.3233026041803573px, 0.5307228197953578px)}
+    60%  { transform: translate(1.4381385945687848px, -0.01833208311116985px)}
+    70%  { transform: translate(0.3832717464192342px, 1.3751341700740056px)}
+    80%  { transform: translate(1.3387203891896085px, 0.7749100703016215px)}
+    90%  { transform: translate(0.13811543176508023px, -0.5631617792900386px)}
+    100% { transform: translate(1.1132962126146975px, -0.37092798617134737)}
+}
+
+@keyframes shake2 {
+    0%   { transform: translate(0.43147424296974257px, 1.1063909368309321px)}
+    10%  { transform: translate(0.17606811498843922px, -0.3508826193015201px)}
+    20%  { transform: translate(0.36181645894452685px, 0.605385563964253px)}
+    30%  { transform: translate(1.4372546794563812px, 1.1837697858458487px)}
+    40%  { transform: translate(1.5838103259089906px, -0.04990283582496213px)}
+    50%  { transform: translate(0.5295755384112634px, 0.19509129186621232px)}
+    60%  { transform: translate(1.507917123791188px, -0.3687492784878116px)}
+    70%  { transform: translate(0.4701069154312313px, 0.6434175354053414px)}
+    80%  { transform: translate(0.2272801306490536px, 0.9140386273503992px)}
+    90%  { transform: translate(1.38513552666155px, 0.3900040959016101px)}
+    100% { transform: translate(0.43147424296974257px, 1.1063909368309321)}
+}
+
+@keyframes shake3 {
+    0%   { transform: translate(0.5203644700791127px, 0.9382593216287479px)}
+    10%  { transform: translate(0.43524020046807677px, 0.5096490770716257px)}
+    20%  { transform: translate(-0.06298463114676178px, 0.04787657567071191px)}
+    30%  { transform: translate(0.09699703600452925px, -0.5001635702041024px)}
+    40%  { transform: translate(0.1373946243350347px, -0.3855106858518026px)}
+    50%  { transform: translate(1.25734500789194px, -0.5551861369323065px)}
+    60%  { transform: translate(0.644674265319536px, 0.059868800068653694px)}
+    70%  { transform: translate(1.3015266430175179px, 1.3431488750651535px)}
+    80%  { transform: translate(-0.02900462999851261px, 0.029777520098096644px)}
+    90%  { transform: translate(0.014203257854742524px, -0.558073577080621px)}
+    100% { transform: translate(0.5203644700791127px, 0.9382593216287479)}
+}
+
+@keyframes shake4 {
+    0%   { transform: translate(0.6204207269432497px, 0.741298597589671px)}
+    10%  { transform: translate(-0.35607125394054273px, 1.0734251094063723px)}
+    20%  { transform: translate(0.8810986808897517px, 0.39690315361698103px)}
+    30%  { transform: translate(0.36738492850545457px, -0.04135950320906978px)}
+    40%  { transform: translate(1.3039238500169636px, 0.7768978584287495px)}
+    50%  { transform: translate(0.0984277602727387px, 1.3690065539390468px)}
+    60%  { transform: translate(1.2873372755361716px, 0.48035733817895687px)}
+    70%  { transform: translate(0.6919069627766165px, -0.25707527550682563px)}
+    80%  { transform: translate(1.2019151042886516px, -0.4211829731154061px)}
+    90%  { transform: translate(1.0132257523582489px, -0.3323410727793147px)}
+    100% { transform: translate(0.6204207269432497px, 0.741298597589671)}
+}
+
+@keyframes shake5 {
+    0%   { transform: translate(0.8313275910016013px, 0.924841170688432px)}
+    10%  { transform: translate(0.5591452170156054px, 1.0503021627541536px)}
+    20%  { transform: translate(0.8369641451614763px, -0.10209180106066962px)}
+    30%  { transform: translate(1.0959181340320874px, 0.9182437847419599px)}
+    40%  { transform: translate(0.5448108076547932px, 0.7509429310224697px)}
+    50%  { transform: translate(0.015322785880413803px, 0.734759160250006px)}
+    60%  { transform: translate(1.3374859818614975px, -0.39297597774370996px)}
+    70%  { transform: translate(0.2180309369356156px, 1.1432786745795909px)}
+    80%  { transform: translate(-0.26204665615397216px, -0.07848220821577201px)}
+    90%  { transform: translate(0.9408597585297765px, 1.0434331092026627px)}
+    100% { transform: translate(0.8313275910016013px, 0.924841170688432)}
+}
+
+@keyframes shake6 {
+    0%   { transform: translate(0.021127074635282184px, 0.5503736578125312px)}
+    10%  { transform: translate(1.0168682252982162px, 0.6917375971707306px)}
+    20%  { transform: translate(0.36867500947062315px, 0.38345522415058564px)}
+    30%  { transform: translate(0.5189686856558681px, 0.7894471763731347px)}
+    40%  { transform: translate(1.515366107812874px, -0.3582248151601971px)}
+    50%  { transform: translate(0.06925905911828434px, -0.5402550961512714px)}
+    60%  { transform: translate(0.7644390461546232px, 0.8047543704366408px)}
+    70%  { transform: translate(0.9022880905723539px, 0.09354966353779848px)}
+    80%  { transform: translate(0.7696940068262134px, 0.5666284355987771px)}
+    90%  { transform: translate(0.459533346773802px, -0.08803733695107219px)}
+    100% { transform: translate(0.021127074635282184px, 0.5503736578125312)}
+}
+
+@keyframes shake7 {
+    0%   { transform: translate(0.21304391985985693px, 0.12671008159157438px)}
+    10%  { transform: translate(-0.16384265578799118px, 1.2483086664928473px)}
+    20%  { transform: translate(1.4901726560853028px, 1.039820784350224px)}
+    30%  { transform: translate(-0.2731937772447902px, -0.11761273158836427px)}
+    40%  { transform: translate(1.1690452058493963px, -0.5188046740679974px)}
+    50%  { transform: translate(0.6304447061681698px, 0.987181345411324px)}
+    60%  { transform: translate(0.6248175823858831px, 0.2978256371908864px)}
+    70%  { transform: translate(1.5060919734285827px, 0.47147188081811187px)}
+    80%  { transform: translate(1.3172235538481316px, -0.45429326714028206px)}
+    90%  { transform: translate(0.18978068384304636px, -0.4032602391198391px)}
+    100% { transform: translate(0.21304391985985693px, 0.12671008159157438)}
+}
+
+@keyframes shake8 {
+    0%   { transform: translate(-0.09767445201204705px, 0.5908600011375292px)}
+    10%  { transform: translate(-0.06725693371402086px, -0.21956495525291786px)}
+    20%  { transform: translate(0.2497681942897657px, 1.312629312041444px)}
+    30%  { transform: translate(1.3493336065936816px, 0.08080573859147633px)}
+    40%  { transform: translate(-0.37037922360888464px, 1.005074881113365px)}
+    50%  { transform: translate(0.5248048093633625px, 0.5937157284426996px)}
+    60%  { transform: translate(-0.18928697128294847px, 0.6843417723042807px)}
+    70%  { transform: translate(0.9924724686612817px, 1.1197333619620857px)}
+    80%  { transform: translate(0.37550505162790315px, 0.23815320507186077px)}
+    90%  { transform: translate(1.1436313278096497px, 0.3628888420844093px)}
+    100% { transform: translate(-0.09767445201204705px, 0.5908600011375292)}
+}
+
+@keyframes shake8 {
+    0%   { transform: translate(0.2797198293129012px, 1.265982490563185px)}
+    10%  { transform: translate(-0.2550617696688354px, 0.9234079840177524px)}
+    20%  { transform: translate(1.1903653430340442px, 1.3704760569073011px)}
+    30%  { transform: translate(0.5940889743954326px, 0.36535768288879666px)}
+    40%  { transform: translate(1.5169080048782169px, 1.323963265156077px)}
+    50%  { transform: translate(0.5993771564425873px, 0.28912855204960397px)}
+    60%  { transform: translate(0.3918891773822176px, 0.17320854738154334px)}
+    70%  { transform: translate(-0.2553717264216854px, 0.09457663245921732px)}
+    80%  { transform: translate(0.628546920566386px, 0.9721698276536502px)}
+    90%  { transform: translate(-0.3545976465274766px, 1.0435067862368763px)}
+    100% { transform: translate(0.2797198293129012px, 1.265982490563185)}
+}
+
+@keyframes shake9 {
+    0%   { transform: translate(0.8900918497195257px, 1.3770488557294795px)}
+    10%  { transform: translate(1.3415358036284029px, 1.0286585595020825px)}
+    20%  { transform: translate(0.6536889410704115px, 0.40095591432290967px)}
+    30%  { transform: translate(1.3233996873575546px, 0.34079985307237204px)}
+    40%  { transform: translate(-0.0838365364068322px, 0.5441752193419128px)}
+    50%  { transform: translate(1.3425463945844425px, 0.9512687723617578px)}
+    60%  { transform: translate(0.21535311630430753px, 0.9965383671899725px)}
+    70%  { transform: translate(-0.21339630376166874px, -0.2587924902644475px)}
+    80%  { transform: translate(0.594397889795803px, 0.03306079432106335px)}
+    90%  { transform: translate(-0.2871451174224361px, 1.0249491201663061px)}
+    100% { transform: translate(0.8900918497195257px, 1.3770488557294795)}
+}
+
+.notshake span {
+    display: inline-block;
+    font-style: italic;
+}
+
+.shake span {
+    display: inline-block;
+    animation-duration: 0.5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+
+.shake span:nth-child(9n-8) {
+    animation-name: shake1;
+}
+.shake span:nth-child(9n-7) {
+    animation-name: shake2;
+}
+.shake span:nth-child(9n-6) {
+    animation-name: shake3;
+}
+.shake span:nth-child(9n-5) {
+    animation-name: shake4;
+}
+.shake span:nth-child(9n-4) {
+    animation-name: shake5;
+}
+.shake span:nth-child(9n-3) {
+    animation-name: shake6;
+}
+.shake span:nth-child(9n-2) {
+    animation-name: shake7;
+}
+.shake span:nth-child(9n-1) {
+    animation-name: shake8;
+}
+.shake span:nth-child(9n-0) {
+    animation-name: shake9;
+}
+
+.shake span:nth-child(2n-1) {
+    animation-delay: -0.1s;
+}
+.shake span:nth-child(3n-1) {
+    animation-delay: -0.2s;
+}
+.shake span:nth-child(4n-1) {
+    animation-delay: -0.3s;
+}
+.shake span:nth-child(5n-1) {
+    animation-delay: -0.4s;
+}
+
+@keyframes wave1 {
+    0%   { transform: translate(0,  1px) }
+    100% { transform: translate(0, -1px) }
+}
+
+.wave > span {
+    display: inline-block;
+    animation-duration: 1.0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.37, 0, 0.63, 1);
+    animation-delay: 0s;
+}
+
+.wave > span:nth-child(9n-8) {
+    animation-name: wave1;
+    animation-delay: 0.0s;
+}
+.wave > span:nth-child(9n-7) {
+    animation-name: wave1;
+    animation-delay: 0.1s;
+}
+.wave > span:nth-child(9n-6) {
+    animation-name: wave1;
+    animation-delay: 0.2s;
+}
+.wave > span:nth-child(9n-5) {
+    animation-name: wave1;
+    animation-delay: 0.3s;
+}
+.wave > span:nth-child(9n-4) {
+    animation-name: wave1;
+    animation-delay: 0.4s;
+}
+.wave > span:nth-child(9n-3) {
+    animation-name: wave1;
+    animation-delay: 0.5s;
+}
+.wave > span:nth-child(9n-2) {
+    animation-name: wave1;
+    animation-delay: 0.6s;
+}
+.wave > span:nth-child(9n-1) {
+    animation-name: wave1;
+    animation-delay: 0.7s;
+}
+.wave > span:nth-child(9n-0) {
+    animation-name: wave1;
+    animation-delay: 0.8s;
+}

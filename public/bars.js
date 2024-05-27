@@ -23,7 +23,10 @@ class Header extends HTMLElement {
 
                 <div id="flex">
                     <aside id="leftSidebar">
+                        <!--  gold's thingies -->
                         <button onclick="toggleExpressions();">Toggle Expressions</button>
+                        <button onclick="toggleAnim();">Toggle Animations</button>
+                        <!-- /gold's thingies -->
 
                         <h2>Font Changers</h2>
                         <button onclick="changeFontStyle(null)">Default</button>
@@ -108,6 +111,30 @@ function toggleExpressions() {
 }
 // end gold's expressions toggle code
 
+// gold's animations toggle code
+function toggleAnim() {
+    var things = document.querySelectorAll('.shake, .notshake');
+  
+    for (var i = 0; i < things.length; i++) {
+        if (things[i].classList.contains("shake")) {
+            things[i].classList.remove("shake");
+            things[i].classList.add("notshake");
+            animating = false;
+        } else {
+            things[i].classList.add("shake");
+            things[i].classList.remove("notshake");
+            animating = true;
+        }
+    }
+    if (animating == true) {
+        console.log("animations on!")
+    } else {
+        console.log("animations off!")
+    }
+    sessionStorage.setItem("animating", animating)
+}
+// end gold's animations toggle code
+
 
 // load correct font if it had been set previously
 window.onload = function() {
@@ -125,4 +152,13 @@ window.onload = function() {
         console.log("expressions stayed the same on load!");
     }
     // end gold's expressions toggle code
+
+    // gold's animations toggle code
+    if (sessionStorage.getItem("animating") == false) {
+        toggleAnim();
+        console.log("toggled animations on load!");
+    } else {
+        console.log("animations stayed the same on load!");
+    }
+    //end gold's animation toggle code
 }
